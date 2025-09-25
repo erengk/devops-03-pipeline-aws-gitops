@@ -6,7 +6,7 @@ pipeline {
     }
 
         environment {
-            APP_NAME = "devops-03-pipeline-aws-gitops"
+            APP_NAME = "devops-03-pipeline-aws"
         }
 
 
