@@ -41,7 +41,7 @@ pipeline {
         stage("Push the changed deployment file to Git") {
           steps {
             withCredentials([usernamePassword(
-              credentialsId: 'github',             // Jenkins'teki ID (büyük/küçük harfe dikkat)
+              credentialsId: 'github4aws',             // Jenkins'teki ID (büyük/küçük harfe dikkat)
               usernameVariable: 'GIT_USER',
               passwordVariable: 'GIT_TOKEN'
             )]) {
